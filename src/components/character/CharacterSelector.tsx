@@ -53,7 +53,7 @@ const CharacterSelector: React.FC<CharacterSelectorProps> = ({ characters, onSel
             </div>
             <div className="mt-6 flex justify-center">
               <Button
-                variant="primary"
+                variant="default"
                 onClick={() => setIsDialogOpen(true)}
                 disabled={!selectedCharacter}
               >
