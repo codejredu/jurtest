@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
-import { cn } from "@/lib/utils";
+import Block from './Block';
 
 interface BlockData {
   id: string;
