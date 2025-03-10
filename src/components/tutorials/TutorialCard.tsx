@@ -36,6 +36,7 @@ const TutorialCard: React.FC<TutorialCardProps> = ({
             </p>
           </div>
           <Button
+            variant="default"
             className="bg-primary hover:bg-primary/90 text-white px-4 py-2 rounded-lg w-full"
             onClick={onStart}
           >
